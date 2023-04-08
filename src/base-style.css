@@ -1,0 +1,29 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #262626;
+  color: #f3f3f3;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #962d3e;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a,
+a:visited {
+  color: #348899;
+  text-decoration: none;
+}
